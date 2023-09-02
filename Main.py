@@ -38,7 +38,7 @@ short_url.place(relwidth=0.3, relheight=0.3)
 long_url.grid(row=0, column=0, sticky=W, pady=10, padx=5)
 short_url.grid(row=1, column=0, sticky=W, pady=10, padx=5)
 
-# Creating Entry button for longURL , ShortURL as Output
+# Creating Entry  for longURL , ShortURL as Output
 long_url_entry = Entry(app, width=40)
 short_url_entry = Entry(app, width=40)
 long_url_entry.grid(row=0, column=1, pady=20, padx=10)
